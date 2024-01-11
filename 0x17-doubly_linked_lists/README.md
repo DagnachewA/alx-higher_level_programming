@@ -1,11 +1,11 @@
-C - Doubly linked lists
+#C - Doubly linked lists
 In this project, I learned about using doubly-linked lists in C.
 
-Tests
+#Tests
 tests: Folder of test files. Provided by Holberton School.
-Header File
+#Header File
 lists.h: Header file containing definitions and prototypes for all types and functions written for the project.
-Files                      	Definition/Prototype
+#Files                      	Definition/Prototype
 struct dlistint_s	int n, struct dlistint_s *prev, struct dlistint_s *new
 typedef dlistint_t	struct dlistint_s
 0-print_dlistint.c	size_t print_dlistint(const dlistint_t *h);
@@ -17,7 +17,7 @@ typedef dlistint_t	struct dlistint_s
 6-sum_dlistint.c	int sum_dlistint(dlistint_t *head);
 7-insert_dnodeint.c	dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 8-delete_dnodeint.c	int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
-Tasks
+#Tasks
 0. Print list
 
 0-print_dlistint.c: C function that prints all the elements of a doubly-linked dlistint_t list.
