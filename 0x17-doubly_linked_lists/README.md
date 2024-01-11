@@ -6,8 +6,8 @@ tests: Folder of test files. Provided by Holberton School.
 #Header File
 lists.h: Header file containing definitions and prototypes for all types and functions written for the project.
 #Files                      	Definition/Prototype
-struct dlistint_s	int n, struct dlistint_s *prev, struct dlistint_s *new
-typedef dlistint_t	struct dlistint_s
+struct dlistint_s	int n, struct dlistint_s *prev, struct dlistint_s *new;
+typedef dlistint_t	struct dlistint_s;
 0-print_dlistint.c	size_t print_dlistint(const dlistint_t *h);
 1-dlistint_len.c	size_t dlistint_len(const dlistint_t *h);
 2-add_dnodeint.c	dlistint_t *add_dnodeint(dlistint_t **head, const int n);
