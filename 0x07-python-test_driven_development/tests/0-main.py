@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+import sys
+sys.path.append('/path/to/100-matrix_mul.py/')
 add_integer = __import__('0-add_integer').add_integer
 
 print(add_integer(1, 2))
