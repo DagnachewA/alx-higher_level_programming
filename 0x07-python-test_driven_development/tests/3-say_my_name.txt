@@ -14,21 +14,21 @@ Usage
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Brennan", "Baraban")
-    My name is Brennan Baraban
+    >>> say_my_name("Dagnachew", "Amare")
+    My name is Dagnachew Amare
 
 ::
 
-    >>> say_my_name("Cornelius Maxwell", "Jones II")
-    My name is Cornelius Maxwell Jones II
+    >>> say_my_name("Dagmawi Amare", "Ruth Dagnachew")
+    My name is Dagmawi Amare Ruth Dagnachew
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Brennan")
-    My name is Brennan 
+    >>> say_my_name("Dagnachew")
+    My name is Dagnachew
 
 Invalid Names
 =============
