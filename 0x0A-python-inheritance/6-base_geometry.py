@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-# 6-base_geometry.py
-"""Defines a base geometry class BaseGeometry."""
+"""
+This is a module container of the function 5-base_geometry.py
+"""
+
 
 class BaseGeometry:
-    """Represent base geometry."""
-
+    """A class with public attribute area"""
     def area(self):
-        """Not implemented."""
+        """raises an exception when called"""
         raise Exception("area() is not implemented")
