@@ -3,7 +3,7 @@
 """Defines a base geometry class BaseGeometry."""
 
 class BaseGeometry:
-    """Reprsent base geometry."""
+    """Represent base geometry."""
 
     def area(self):
         """Not yet implemented."""
