@@ -5,7 +5,8 @@ Tests
 tests: Folder of test files.provided the following two independently-developed:
 1-my_list.txt
 7-base_geometry.txt
-Function Prototypes 
+
+Function Prototypes
 Prototypes for functions written in this project:
 
 File			Prototype
@@ -14,6 +15,7 @@ File			Prototype
 3-is_kind_of_class.py	def is_kind_of_class(obj, a_class):
 4-inherits_from.py	def inherits_from(obj, a_class):
 101-add_attribute.py	def add_attribute(obj, att, value):
+
 Tasks
 0. Lookup
 
